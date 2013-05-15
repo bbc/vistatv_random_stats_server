@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+
+$:.unshift(File.expand_path(File.join(File.dirname(__FILE__), "..", "lib")))
+
+require 'stats_server'
+
+$PROGRAM_NAME = 'stats_server'
+STDOUT.sync = true
+
+server = VistaTV::StatsServer::StatsServer.new
+server.run

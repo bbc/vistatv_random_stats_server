@@ -1,0 +1,7 @@
+stats_server:
+  host: "localhost"
+  port: 8081
+
+stats_http_server:
+  host: "localhost"
+  port: 8083
