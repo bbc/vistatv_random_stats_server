@@ -13,7 +13,6 @@ group :eventmachine do
 end
 
 gem 'stats_protocol', :git => 'https://github.com/bbcrd/stats_protocol.git', :branch => 'master'
-gem 'bbc_service_map', :git => 'gitlab:bbc_service_map.git', :branch => 'master'
 
 gem 'rubberband'
 gem 'dalli'

@@ -1,11 +1,4 @@
 GIT
-  remote: gitlab:bbc_service_map.git
-  revision: 085117aaf5baf75043889034b4c15e8835a8d4aa
-  branch: master
-  specs:
-    bbc_service_map (0.0.4)
-
-GIT
   remote: https://github.com/bbcrd/stats_protocol.git
   revision: 6d813ea753695863c7bebbdb6ecef5e2ef5b274f
   branch: master
@@ -89,7 +82,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bbc_service_map!
   dalli
   em-http-request
   em-logger
