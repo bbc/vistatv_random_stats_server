@@ -44,7 +44,6 @@ module VistaTV
               :change => rand(-20..20),
               :join => rand(-20..20),
               :quit => rand(-20..20),
-              :change => rand(-80..80),
               :platforms => {
                  :desktop =>rand(200..25000),
                  :mobile => rand(100..2000),
