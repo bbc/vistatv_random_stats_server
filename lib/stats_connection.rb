@@ -1,6 +1,6 @@
 require 'eventmachine'
 
-require 'stats_protocol'
+require 'vistatv_stats_protocol'
 
 require_relative 'overview'
 require_relative 'discovery'
