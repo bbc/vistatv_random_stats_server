@@ -16,7 +16,7 @@ gem 'vistatv_stats_protocol', :git => 'https://github.com/bbc/vistatv_stats_prot
 
 gem 'rubberband', '~> 0.9.8'
 gem 'dalli', '~> 2.6.2'
-gem 'rake', '~> 12.0.0'
+gem 'rake', '~> 12.3.3'
 gem 'mina', '~> 1.0.6'
 
 group :test do
