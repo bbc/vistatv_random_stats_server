@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra', '~> 1.4.8'
-gem 'json', '~> 2.1.0'
+gem 'json', '~> 2.3.0'
 gem 'thin', '~> 1.7.0'
 gem 'foreman', '~> 0.84.0'
 gem 'settingslogic', '~> 2.0.9'
