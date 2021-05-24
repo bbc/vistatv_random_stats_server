@@ -8,8 +8,8 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     coderay (1.1.2)
     cookiejar (0.3.3)
     crack (0.4.3)
@@ -18,15 +18,15 @@ GEM
     dalli (2.6.4)
     diff-lcs (1.3)
     docile (1.1.5)
-    em-http-request (1.0.3)
-      addressable (>= 2.2.3)
-      cookiejar
-      em-socksify
-      eventmachine (>= 1.0.0.beta.4)
-      http_parser.rb (>= 0.5.3)
+    em-http-request (1.1.6)
+      addressable (>= 2.3.4)
+      cookiejar (!= 0.3.1)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
     em-logger (0.1.0)
       eventmachine (>= 0.12.10)
-    em-socksify (0.3.1)
+    em-socksify (0.3.2)
       eventmachine (>= 1.0.0.beta.4)
     eventmachine (1.2.5)
     faraday (0.8.11)
@@ -47,7 +47,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    public_suffix (3.0.1)
+    public_suffix (4.0.6)
     rack (1.6.12)
     rack-protection (1.5.5)
       rack
@@ -98,7 +98,7 @@ PLATFORMS
 
 DEPENDENCIES
   dalli (~> 2.6.2)
-  em-http-request (~> 1.0.3)
+  em-http-request (~> 1.1.6)
   em-logger (~> 0.1.0)
   eventmachine (~> 1.2.3)
   foreman (~> 0.84.0)

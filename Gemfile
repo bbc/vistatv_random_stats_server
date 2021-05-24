@@ -8,7 +8,7 @@ gem 'settingslogic', '~> 2.0.9'
 
 group :eventmachine do
   gem 'eventmachine', '~> 1.2.3'
-  gem 'em-http-request', '~> 1.0.3'
+  gem 'em-http-request', '~> 1.1.6'
   gem 'em-logger', '~> 0.1.0'
 end
 
