@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '~> 1.4.8'
+gem 'sinatra', '~> 2.2.0'
 gem 'json', '~> 2.3.0'
 gem 'thin', '~> 1.7.0'
 gem 'foreman', '~> 0.84.0'
